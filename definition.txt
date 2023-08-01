@@ -5,7 +5,7 @@
 
 // THE PURPOSE OF RESPONSE:
 // THIS REPRESENTS THE HTTP RESPONSE THAT AN EXPRESS APP SENDS WHEN IT GETS AN HTTP REQUEST.
-
+// The response object is a data structure that contains the information sent back by the server to the client in response to an HTTP request. It includes the requested resource, the status of the request (success, error, etc.), and additional metadata such as content type and length.
 // THE PURPOSE OF HEADER:
 // THE HEADER TELLS THE SERVER DETAILS ABOUT THE REQUEST SUCH AS WHAT TYPE OF DATA THE CLIENT, USER OR REQUEST WANTS IN THE RESPONSE. THE TYPE CAN BE HTML, TEXT, JSON, COOKIES OR OTHERS.
 
