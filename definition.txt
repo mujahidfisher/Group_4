@@ -1,13 +1,34 @@
-// GROUP 4 : Laiquah Cotie, Mujahid Fisher, Rayhaan Khan, Thotyelwa Mpongwana, Justin Scholtz, Logan Thomas
+GROUP 4 : Laiquah Cotie, Mujahid Fisher, Rayhaan Khan, Thotyelwa Mpongwana, Justin Scholtz, Logan Thomas
 
-// THE PURPOSE OF REQUEST:
-// THE REQUEST MODULE IS USED TO MAKE HTTP CALLS. IT IS THE SIMPLEST WAY OF MAKING HTTP CALLED IN NODE.JS.THIS IS TO EXAMINE CALLS FROM THE CLIENT SIDE, MAKE HTTP REQUESTS, AND HANDLE INCOMING DATA WHETHER IN A STRING OR JSON OBJECT.
+THE PURPOSE OF REQUEST:
+THE REQUEST MODULE IS USED TO MAKE HTTP CALLS. IT IS THE SIMPLEST WAY OF MAKING HTTP CALLED IN NODE.JS.THIS IS TO EXAMINE CALLS FROM THE CLIENT SIDE, MAKE HTTP REQUESTS, AND HANDLE INCOMING DATA WHETHER IN A STRING OR JSON OBJECT.
 
-// THE PURPOSE OF RESPONSE:
-// THIS REPRESENTS THE HTTP RESPONSE THAT AN EXPRESS APP SENDS WHEN IT GETS AN HTTP REQUEST.
+----------------------------------------------------------
+GET Requests (Read):
+Loading up a website is a GET request. You request to get data from another computer. 
+What GET does is that you just asking for data but not performing a task such as creating, updating or deleting data.
+EXAMPLE: HTTP GET http://dog-api.kinduff.com
 
-// THE PURPOSE OF HEADER:
-// THE HEADER TELLS THE SERVER DETAILS ABOUT THE REQUEST SUCH AS WHAT TYPE OF DATA THE CLIENT, USER OR REQUEST WANTS IN THE RESPONSE. THE TYPE CAN BE HTML, TEXT, JSON, COOKIES OR OTHERS.
+POST Requests (Create):
+POST requests uses the URL as an endpoint. It is used to create something, example creating a new user on Facebook. Facebook recieves this request and creates it for you.
+EXAMPLE: HTTP POST http://dog-api.kinduff.com
 
-// THE PURPOSE OF THE BODY:
-// IT IS RESPONSIBLE FOR PARSING THE INCOMING REQUEST BODIES IN A MIDDLEWARE BEFORE YOU HANDLE IT. BODY PARSER IS A MIDDLEWARE OF NODE JS USED TO HANDLE HTTP POST REQUEST.
+DELETE Requests: 
+Like Post requests, it uses the URL as an endpoint too. You ask another computer to delete resources. 
+EXAMPLE: HTTP DELETE http://dog-api.kinduff.com/user/1
+
+PUT AND PATCH Requests: 
+Both uses the URL as an endpoint.
+PATCH (PARTIAL UPDATE/MODIFY): Patch asks another computer to update a piece of a resource. An example of using PATCH would be to update the first name or last name of a specific user.
+PUT (UPDATE/REPLACE): PUT asks another computer to update an ENTIRE resource. 
+
+----------------------------------------------------------
+
+THE PURPOSE OF RESPONSE:
+THIS REPRESENTS THE HTTP RESPONSE THAT AN EXPRESS APP SENDS WHEN IT GETS AN HTTP REQUEST.
+
+THE PURPOSE OF HEADER:
+THE HEADER TELLS THE SERVER DETAILS ABOUT THE REQUEST SUCH AS WHAT TYPE OF DATA THE CLIENT, USER OR REQUEST WANTS IN THE RESPONSE. THE TYPE CAN BE HTML, TEXT, JSON, COOKIES OR OTHERS.
+
+THE PURPOSE OF THE BODY:
+IT IS RESPONSIBLE FOR PARSING THE INCOMING REQUEST BODIES IN A MIDDLEWARE BEFORE YOU HANDLE IT. BODY PARSER IS A MIDDLEWARE OF NODE JS USED TO HANDLE HTTP POST REQUEST.
